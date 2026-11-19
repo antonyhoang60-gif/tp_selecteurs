@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
+
+body {
+    font-family: "Coming Soon", cursive;
+}
+
+ol > li:first-child {
+    color:blue;
+}
+
+ol>li:last-child{
+    color:grey;
+}
+
+
+ol>li:first-child>ul>li:nth-child(-n+3){
+    color : green;
+}
+
+ol>li:first-child>ul>li:nth-child(-n+2){
+    color:red;
+}
+
+span>span {
+    color : pink;
+}
+
